@@ -63,11 +63,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				neon: {
-					blue: '#00D4FF',
-					pink: '#FF0080',
-					purple: '#8B5CF6',
-					green: '#00FF88',
-					cyan: '#00FFFF'
+					blue: '#FFFFFF',
+					pink: '#F5F5F5',
+					purple: '#E0E0E0',
+					green: '#D0D0D0',
+					cyan: '#C0C0C0'
 				}
 			},
 			borderRadius: {
@@ -93,8 +93,8 @@ export default {
 					}
 				},
 				'glow': {
-					'0%, 100%': { boxShadow: '0 0 20px rgba(0, 212, 255, 0.5)' },
-					'50%': { boxShadow: '0 0 40px rgba(0, 212, 255, 0.8)' }
+					'0%, 100%': { boxShadow: '0 0 20px rgba(255, 255, 255, 0.3)' },
+					'50%': { boxShadow: '0 0 40px rgba(255, 255, 255, 0.5)' }
 				},
 				'float': {
 					'0%, 100%': { transform: 'translateY(0px)' },
